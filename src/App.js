@@ -1,6 +1,5 @@
 import React from "react";
 import { BsSlack, BsGithub } from "react-icons/bs";
-import { CiDark } from "react-icons/ci";
 import { BiWorld } from "react-icons/bi";
 import profile from "./profile.jpg";
 
@@ -15,9 +14,7 @@ function App() {
   return (
     <div className={`App ${theme}`}>
       <header className="header">
-        <p>
-          <CiDark className="theme-btn" onClick={toggleTheme} />
-        </p>
+        
         <img src={profile} alt="profile-img" className="skeng" />
         <p>Odemakin Victoria</p>
       </header>
